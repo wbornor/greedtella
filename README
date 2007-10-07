@@ -1,32 +1,10 @@
 $Id: README,v 1.1.1.1 2005/01/31 21:50:19 wbornor Exp $
 
-Yeah, Greedtella is all about open source, anybody is welcome to work on it.
+In the beginning Limewire was great; small, lightweight, fast. And then it became bloated with features like the embedded audio player, chat functionality, etc... Also since it runs in the JRE it has a large memory footprint.
 
-Let me tell you a little about it...
-I have been using limewire for about 3 years now, and in the beginning it 
-was great; small, lightweight, fast. Recently its been getting bloated with 
-features like the embedded audio player, chat functionality, etc... Also 
-since it runs in the JRE it has a large memory footprint.
+I wanted something that was fast, small, and does only one thing, downloads files from other GNUtella servents. Since the protocol is open, its easy to see how to manipulate it so that it only fulfills the cliENT side of the servENT model.
 
-I wanted something that was fast, small, and does only one thing, downloads 
-files from other GNUtella servents. Since the protocol is open, its easy 
-to see how to manipulate it so that it only fulfills the cliENT side of 
-the servENT model.
-
-When I started Greedtella I was reading about eXtreme programming, and I 
-really like the modularity and unit testing code structure. So I structured 
-Greedtella on that model. My goal was to write a functional library that 
-was extremly modular so that any type of user interface could be written atop 
-of it.
-
-I really wanted a command prompt user interface as one of the interfaces 
-so that I could SSH into one machine, fire up Greedtella, download a song, 
-from any computer on the net.
-
-In the near future of Greedtella, it needs to be updated to the new GNUtella 
-protocol (0.6). There are many interesting parts to this new protocol which 
-really reduce network traffic, including host caching, and Ultrapeer. I 
-haven't read over the whole spec, but there shouldn't be too many additions 
-to the current Greedtella code.
+I wanted a command prompt user interface as one of the interfaces so that I could SSH into one machine, fire up Greedtella and download a file from any computer on the net.
 
 Wes
+
