@@ -1,6 +1,6 @@
 $Id: README,v 1.1.1.1 2005/01/31 21:50:19 wbornor Exp $
 
-In the beginning Limewire was great; small, lightweight, fast. And then it became bloated with features like the embedded audio player, chat functionality, etc... Also since it runs in the JRE it has a large memory footprint.
+In the beginning Limewire was great; small, lightweight, fast. Then it became bloated with features like the embedded audio player, chat functionality, etc... Also since it runs in the JRE it has a large memory footprint.
 
 I wanted something that was fast, small, and does only one thing, downloads files from other GNUtella servents. Since the protocol is open, its easy to see how to manipulate it so that it only fulfills the cliENT side of the servENT model.
 
