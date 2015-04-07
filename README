@@ -1,4 +1,5 @@
-$Id: README,v 1.1.1.1 2005/01/31 21:50:19 wbornor Exp $
+# greedtella  
+An Open Source Greedy Gnutella Client. Efficient because it only cares about itself.
 
 In the beginning Limewire was great; small, lightweight, fast. Then it became bloated with features like the embedded audio player, chat functionality, etc... Also since it runs in the JRE it has a large memory footprint.
 
